@@ -16,7 +16,7 @@ Résumé du concept du jeu : _[...]_
 - **Moteur de jeu** : Unity _[2022.3.32f1]_  
 - **Langages de programmation** : C#  
 - **Gestion de version** : GitHub _[https://github.com/GamingCampus-MillieBourgois-24-25/grand-projet-commun-portal-dash]_  
-- **Autres outils** : _[DoTween, LeanTween, TextMeshPro, Input System, Unity UI ...]_
+- **Autres outils** : _[DoTween, LeanTween, TextMeshPro, Input System, Unity UI, Unity ADs ...]_
 
 ---
 
