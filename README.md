@@ -1,6 +1,7 @@
 # Technical Design Document (TDD)
 
-1. (Introduction)[# 1.-Introduction]
+## Table of Contents
+1. [Introduction](#1-introduction)
 
 ## 1. Introduction
 
