@@ -2,6 +2,12 @@
 
 ## Table of Contents
 1. [Introduction](#1-introduction)
+2. [Gameplay](#2-gameplay)
+3. [Interface Utilisateur (UI/UX](#3-interface-utilisateur)
+4. [Architecture Technique](#4-architecture-technique)
+5. [Plan de Développement](#5-plan-de-developpement)
+6. [Ressources et Références](#6-ressoures-et-références)
+7. [Nomenclature](#7-nomenclature)
 
 ## 1. Introduction
 
@@ -105,6 +111,5 @@ Résumé du concept du jeu : _[...]_
 
 ---
 
-## 7. Notes et Discussions
+## 7. Nomenclature
 
-_(Section pour noter les idées supplémentaires, suggestions d’améliorations ou retours de l’équipe)_
