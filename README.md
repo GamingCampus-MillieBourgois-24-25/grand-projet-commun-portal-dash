@@ -15,7 +15,7 @@
 **Nom du jeu** : _[Portal Dash]_  
 **Équipe** : _[GTech3: Gathelier Axel, Enzo Mirabella, Romain Ponsignon, David De Oliveira, Axel Picou; GBS3: GArt2:]_  
 **Date de création** : _[18-02-2025]_  
-**Version du document** : _[0.2]_  
+**Version du document** : _[0.3]_  
 
 ### 1.2 Objectif du projet
 Résumé du concept du jeu : _[Un endless runner en 2.5D où le joueur traverse des portails changeant à la fois l'environnement et le gameplay, passant d'un surf dans la neige façon Alto, à un vol triangulaire inspiré de Geometry Dash dans un monde futuriste néon, puis à une course sur des voies ferrées façon Little Big Planet dans une mine.]_
