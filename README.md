@@ -109,3 +109,54 @@ Résumé du concept du jeu : _[Un endless runner en 2.5D où le joueur traverse 
 
 ## 7. Nomenclature
 
+### 7.1 Généralités
+- Utiliser **PascalCase** pour tous les noms.
+- Préfixer chaque asset en fonction de son type pour faciliter l’organisation.
+- Éviter les abréviations trop courtes ou non standardisées.
+- Utiliser des noms explicites et descriptifs.
+
+### 7.2 Préfixes des assets
+
+| Type d’Asset            | Préfixe  | Exemple                        |
+|-------------------------|---------|--------------------------------|
+| Blueprint (objet)       | BP_     | `BP_PlayerCharacter`          |
+| Blueprint (interface)   | BPI_    | `BPI_Interactable`            |
+| Blueprint (fonction utilitaire) | BPF_ | `BPF_MathLibrary`       |
+| Matériau                | M_      | `M_PlayerSkin`                |
+| Matériau Instance       | MI_     | `MI_PlayerSkinRed`            |
+| Texture                | T_      | `T_UI_HealthBar`              |
+| Static Mesh            | SM_     | `SM_RockBig`                  |
+| Skeletal Mesh          | SK_     | `SK_PlayerCharacter`          |
+| Animation Blueprint    | ABP_    | `ABP_Player`                  |
+| Séquence d’animation   | ANIM_   | `ANIM_Run`                    |
+| Son                   | S_      | `S_Explosion`                 |
+| Effet Sonore          | SFX_    | `SFX_PortalOpen`              |
+| Musique               | MX_     | `MX_BackgroundTheme`          |
+| Particule             | P_      | `P_Explosion`                 |
+| Widget                | W_      | `W_MainMenu`                  |
+| Niveau (Map)          | LVL_    | `LVL_MainMenu`                |
+
+### 7.3 Blueprints spécifiques
+- Les **Blueprints d’acteurs** doivent suivre la structure : `BP_[Nom]`
+- Les **Blueprints composants** : `BPC_[Nom]`
+- Les **Blueprints de contrôleur** : `BP_Controller_[Nom]`
+- Les **Blueprints de GameMode** : `BP_GM_[Nom]`
+- Les **Blueprints de HUD** : `BP_HUD_[Nom]`
+
+### 7.4 Variables
+- **Booleans** : Préfixe `b` (ex: `bIsJumping`, `bHasPowerUp`)
+- **Integers** : `i` (ex: `iScore`, `iHealth`)
+- **Floats** : `f` (ex: `fSpeed`, `fJumpHeight`)
+- **Vectors** : `v` (ex: `vPlayerPosition`)
+- **Textures** : `Tex_` (ex: `Tex_IconPlayer`)
+- **Audio** : `Aud_` (ex: `Aud_PortalSound`)
+- **Références d’acteurs** : `Ref_` (ex: `Ref_PlayerCharacter`)
+
+### 7.5 Fonctions et événements
+- Les fonctions commencent par un verbe pour indiquer l’action : `CalculateScore`, `SpawnEnemy`, `PlaySoundEffect`
+- Les événements commencent par `On` : `OnPlayerDeath`, `OnPortalEnter`
+- Les macros sont préfixées par `MACRO_` : `MACRO_CalculateDistance`
+- Les interfaces sont préfixées par `I_` : `I_Interactable`
+
+### 7.6 Dossiers du projet Unreal
+La structure des dossiers doit être claire pour organiser les assets :
