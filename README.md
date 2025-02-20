@@ -177,4 +177,5 @@ Description de l'action réalisé (Add:, Fix: ...) + description de ce qui a ét
 
 ### 8.1 diagramme général
 
+![uml behaviour drawio](https://github.com/user-attachments/assets/1f15430d-22bb-4507-a641-df3f197d90d9)
 
