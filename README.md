@@ -8,6 +8,7 @@
 5. [Plan de Développement](#5-plan-de-developpement)
 6. [Ressources et Références](#6-ressoures-et-références)
 7. [Nomenclature](#7-nomenclature)
+8. [UML](#8-UML)
 
 ## 1. Introduction
 
@@ -85,8 +86,8 @@ Résumé du concept du jeu : _Un endless runner en 2.5D où le joueur traverse d
 
 ### 4.1 Organisation du projet Unreal Engine
 - **Structure des scènes** : _Scene Menu Principale, Scene Jeu, Scene Ecran de Chargement_  
-- **Système de génération du niveau** : _Chunk progénérer placé de façon aléatoire_  
-- **Gestion des assets** : _Les chunks hors map sont Destroy_  
+- **Système de génération du niveau** : _Chunk prégénérer placé de façon aléatoire_  
+- **Gestion des assets** : _Les chunks hors affichage sont Destroy_  
 - **Système de gestion des portails** : _Post Process avec shake de la camera + fondu au noir + FX_
 - **Sytème de sauvegarde** : _Unreal Engine Blueprint_
 
@@ -122,6 +123,9 @@ Résumé du concept du jeu : _Un endless runner en 2.5D où le joueur traverse d
   - Charger un Level de manière asynchrone (pour les écran de chargement) : https://www.fab.com/listings/f8aabb9a-7c96-4f79-97ff-04bcc146e595
   - Force Feedback (retour haptique) : https://www.youtube.com/watch?v=aKNYdT-rR8U
   - Système de Sauvegarde: https://www.youtube.com/watch?v=6CP8BhrOdgU / https://dev.epicgames.com/documentation/en-us/unreal-engine/saving-and-loading-your-game-in-unreal-engine
+  - Tuto Unreal Engine Post-Process : https://www.youtube.com/@UnrealCG / https://www.youtube.com/watch?v=ezRd6t7ZNHE&t=30s
+  - Recuperer temps IRL (Date Time) : https://dev.epicgames.com/documentation/en-us/unreal-engine/BlueprintAPI/Math/DateTime / https://dynomega.com/unreal-engine/blueprints/ue5-simple-time-of-day-system/time-of-day-bp
+  - Base de donnée (DataTables) : https://dev.epicgames.com/documentation/en-us/unreal-engine/data-driven-gameplay-elements?application_version=4.27
 
 
 ---
