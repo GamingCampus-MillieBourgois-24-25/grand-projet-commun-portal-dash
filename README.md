@@ -107,7 +107,7 @@ Résumé du concept du jeu : _Un endless runner en 2.5D où le joueur traverse d
   - In-Game Ads (équivalent à Unity Ads) : https://www.fab.com/listings/f8aabb9a-7c96-4f79-97ff-04bcc146e595
   - Charger un Level de manière asynchrone (pour les écran de chargement) : https://www.fab.com/listings/f8aabb9a-7c96-4f79-97ff-04bcc146e595
   - Force Feedback (retour haptique) : https://www.youtube.com/watch?v=aKNYdT-rR8U
-  - Système de Sauvegarde: https://www.youtube.com/watch?v=6CP8BhrOdgU  
+  - Système de Sauvegarde: https://www.youtube.com/watch?v=6CP8BhrOdgU / https://dev.epicgames.com/documentation/en-us/unreal-engine/saving-and-loading-your-game-in-unreal-engine
 
 
 ---
