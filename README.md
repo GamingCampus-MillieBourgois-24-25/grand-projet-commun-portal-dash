@@ -199,6 +199,11 @@ Description de l'action réalisée (Add:, Fix: ...) + description de ce qui a é
 
 ![uml behaviour drawio](https://github.com/user-attachments/assets/1f15430d-22bb-4507-a641-df3f197d90d9)
 
+### 8.1 Diagramme récupération de coin
+
+![Diagramme coin drawio](https://github.com/user-attachments/assets/b56f4441-6f00-41af-85ba-94440b5217a0)
+
+
 ---
 
 ## 9. Features Optionnelles  
