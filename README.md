@@ -3,7 +3,7 @@
 ## Table of Contents
 1. [Introduction](#1-introduction)
 2. [Gameplay](#2-gameplay)
-3. [Interface Utilisateur (UI/UX](#3-interface-utilisateur)
+3. [Interface Utilisateur (UI/UX)](#3-interface-utilisateur)
 4. [Architecture Technique](#4-architecture-technique)
 5. [Plan de Développement](#5-plan-de-developpement)
 6. [Ressources et Références](#6-ressoures-et-références)
