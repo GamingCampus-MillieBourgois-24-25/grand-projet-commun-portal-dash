@@ -15,7 +15,7 @@
 **Nom du jeu** : _Portal Dash_  
 **Équipe** : _GTech3: Gathelier Axel, Enzo Mirabella, Romain Ponsignon, David De Oliveira, Axel Picou_  
 **Date de création** : _18-02-2025_  
-**Version du document** : _0.5_  
+**Version du document** : _0.5.1_  
 
 ### 1.2 Objectif du projet
 Résumé du concept du jeu : _Un endless runner en 2.5D où le joueur traverse des portails changeant à la fois l'environnement et le gameplay, passant d'un surf dans la neige façon Alto, à un vol triangulaire inspiré de Geometry Dash dans un monde futuriste néon, puis à une course sur des voies ferrées façon Little Big Planet dans une mine._
@@ -104,7 +104,13 @@ Résumé du concept du jeu : _Un endless runner en 2.5D où le joueur traverse d
 ## 6. Ressources et Références
 
 - **Dépôt GitHub** : _https://github.com/GamingCampus-MillieBourgois-24-25/grand-projet-commun-portal-dash_
-- **Recherche Unreal** : 
+- **Recherche Unreal** :
+  - Timeline (équivalent à DoTween) : https://dev.epicgames.com/documentation/en-us/unreal-engine/timelines-in-unreal-engine / https://www.youtube.com/watch?v=UlcK7MSP75w
+  - In-Game Ads (équivalent à Unity Ads) : https://www.fab.com/listings/f8aabb9a-7c96-4f79-97ff-04bcc146e595
+  - Charger un Level de manière asynchrone (pour les écran de chargement) : https://www.fab.com/listings/f8aabb9a-7c96-4f79-97ff-04bcc146e595
+  - Force Feedback (retour haptique) : https://www.youtube.com/watch?v=aKNYdT-rR8U
+  - Système de Sauvegarde: https://www.youtube.com/watch?v=6CP8BhrOdgU  
+
 
 ---
 
