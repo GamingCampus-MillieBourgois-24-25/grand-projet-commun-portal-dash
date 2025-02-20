@@ -37,8 +37,8 @@ Résumé du concept du jeu : _Un endless runner en 2.5D où le joueur traverse d
 - **Déplacement** : Automatique vers la droite
 - **Contrôles** : _Swipe haut/bas, tap_  
 - **Obstacles et dangers** : _Differents obstacles en fonction de la thématique du monde/portail_
-- **Collectibles** : _Piece dispersé dans les mondes_
-- **Piece** : _Servent à acheter des boosts à utiliser en début de game ou les améliorer_
+- **Collectibles** : _Pièce dispersé dans les mondes_
+- **Pièce** : _Servent à acheter des boosts à utiliser en début de game ou les améliorer_
 
 ### 2.2 Système de portails
 - **Fréquence d’apparition** : _Les portails apparaîtront après temps donné dans le level._  
@@ -51,15 +51,15 @@ Résumé du concept du jeu : _Un endless runner en 2.5D où le joueur traverse d
 ### 2.3 Power-ups et objets spéciaux
 - **Types de power-ups** : Un power-up commun pour chaque monde "bouclier" avec un asset différent pour chaque monde, ainsi que 2 power-up par niveau 
   - Western:
-    - Lasso "Aiment qui attire les pieces";
-    - TNT "Detruit obstacle activation automatiquement";
+    - Lasso "Aimant qui attire les pièces";
+    - TNT "Détruit obstacle activation automatiquement";
      
   -  Neige:
       -  Planneur "S'active en saut";
-      -  Vin chaud "x2 en piece";
+      -  Vin chaud "x2 en pièce";
   -  Futuriste:
-      -  Laser "Detruit les obstacles en faisant des vas et viens, activation automatique";
-      -  Dash "Wrap sur une distance prédéfinie tant métres";
+      -  Laser "Détruit les obstacles en faisant des vas et viens, activation automatique";
+      -  Dash "Wrap sur une distance prédéfinie tant mètres";
 
 
 - **Durée d’effet** : _En fonction du temps en seconde_  
@@ -88,13 +88,13 @@ Résumé du concept du jeu : _Un endless runner en 2.5D où le joueur traverse d
 
 ### 4.1 Organisation du projet Unreal Engine
 - **Structure des scènes** : _Scene Menu Principale, Scene Jeu, Scene Ecran de Chargement_  
-- **Système de génération du niveau** : _Chunk prégénérer placé de façon aléatoire_  
+- **Système de génération du niveau** : _Chunk pré-générer placé de façon aléatoire_  
 - **Gestion des assets** : _Les chunks hors affichage sont Destroy_  
 - **Système de gestion des portails** : _Post Process avec shake de la camera + fondu au noir + FX_
 - **Sytème de sauvegarde** : _Unreal Engine Blueprint_
 
 ### 4.2 Performances et optimisation
-- **Techniques utilisées** : _Profilage (Permet de check les performance)_  
+- **Techniques utilisées** : _Profilage (Permet de checker les performance)_  
 - **Ciblage FPS** : _adaptatif_  
 
 ---
