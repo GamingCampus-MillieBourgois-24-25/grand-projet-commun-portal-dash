@@ -12,10 +12,10 @@
 ## 1. Introduction
 
 ### 1.1 Nom du projet
-**Nom du jeu** : _[Portal Dash]_  
-**Équipe** : _[GTech3: Gathelier Axel, Enzo Mirabella, Romain Ponsignon, David De Oliveira, Axel Picou; GBS3: GArt2:]_  
-**Date de création** : _[18-02-2025]_  
-**Version du document** : _[0.3]_  
+**Nom du jeu** : _Portal Dash_  
+**Équipe** : _GTech3: Gathelier Axel, Enzo Mirabella, Romain Ponsignon, David De Oliveira, Axel Picou_  
+**Date de création** : _18-02-2025_  
+**Version du document** : _0.4_  
 
 ### 1.2 Objectif du projet
 Résumé du concept du jeu : _[Un endless runner en 2.5D où le joueur traverse des portails changeant à la fois l'environnement et le gameplay, passant d'un surf dans la neige façon Alto, à un vol triangulaire inspiré de Geometry Dash dans un monde futuriste néon, puis à une course sur des voies ferrées façon Little Big Planet dans une mine.]_
@@ -33,7 +33,7 @@ Résumé du concept du jeu : _[Un endless runner en 2.5D où le joueur traverse 
 ### 2.1 Mécaniques de base
 - **Type de jeu** : Runner infini
 - **Déplacement** : Automatique vers la droite
-- **Contrôles** : _[Swipe haut/bas, tap]_  
+- **Contrôles** : _Swipe haut/bas, tap_  
 - **Obstacles et dangers** : _[...]_
 - **Collectibles** : _[...]_
 
@@ -46,11 +46,11 @@ Résumé du concept du jeu : _[Un endless runner en 2.5D où le joueur traverse 
 
 ### 2.3 Power-ups et objets spéciaux
 - **Types de power-ups** : _[...]_
-- **Durée d’effet** : _[En fonction du temps en seconde]_  
-- **Méthode d’obtention** : _[Collectable dans les niveaux]_  
+- **Durée d’effet** : _En fonction du temps en seconde_  
+- **Méthode d’obtention** : _Collectable dans les niveaux_  
 
 ### 2.4 Système de score et progression
-- **Calcul du score** : _[Ce calcule par rapport au temps et au multiplicateur temporaire appliqué]_  
+- **Calcul du score** : _Ce calcule par rapport au temps et au multiplicateur temporaire appliqué_  
 - **Multiplicateurs** : _[...]_  
 - **Système de missions/objectifs** : _[...]_
 
@@ -59,28 +59,28 @@ Résumé du concept du jeu : _[Un endless runner en 2.5D où le joueur traverse 
 ## 3. Interface Utilisateur (UI/UX)
 
 ### 3.1 Éléments du HUD
-- **Affichage du score** : _[En haut à gauche; Score qui s'incrémente en temps réel; Animation sur l'UI lors d'un multiplicateur actif et lors d'un passage de palier de points]_  
-- **Affichage des power-ups actifs** : _[Icônes rondes; Timers visuels sur l'icône (icône affiche le timer sous forme de la perte de couleur de l'asset en fonction du temps et dans le sens de temps)]_  
-- **Boutons et interactions in-game** : _[Bouton pause en haut à droite sous forme d'icône; Interactions avec le jeu en appuyant partout autre que sur le bouton pause]_
+- **Affichage du score** : _En haut à gauche; Score qui s'incrémente en temps réel; Animation sur l'UI lors d'un multiplicateur actif et lors d'un passage de palier de points_  
+- **Affichage des power-ups actifs** : _Icônes rondes; Timers visuels sur l'icône (icône affiche le timer sous forme de la perte de couleur de l'asset en fonction du temps et dans le sens de temps)_  
+- **Boutons et interactions in-game** : _Bouton pause en haut à droite sous forme d'icône; Interactions avec le jeu en appuyant partout autre que sur le bouton pause_
 
 ### 3.2 Menus et navigation
-- **Écran titre** : _[Bouton regarder une pub pour un bonus; Bouton pour aller dans les paramètres; Bouton invisible au milieu de l'ecran pour lancer la partie (comme Subway Surfer)]_  
-- **Paramètres** : _[Volume (Musique, Bruitage); graphismes (Low, Medium, Hight)]_
+- **Écran titre** : _Bouton regarder une pub pour un bonus; Bouton pour aller dans les paramètres; Bouton invisible au milieu de l'ecran pour lancer la partie (comme Subway Surfer)_  
+- **Paramètres** : _Volume (Musique, Bruitage); graphismes (Low, Medium, Hight)_
 
 ---
 
 ## 4. Architecture Technique
 
 ### 4.1 Organisation du projet Unreal Engine
-- **Structure des scènes** : _[Scene Menu Principale, Scene Jeu, Scene Ecran de Chargement, Scene Boutique...]_  
+- **Structure des scènes** : _Scene Menu Principale, Scene Jeu, Scene Ecran de Chargement_  
 - **Système de génération du niveau** : _[...]_  
 - **Gestion des assets** : _[...]_  
 - **Système de gestion des portails** : _[Comment sont gérés les changements de gameplay?]_
-- **Sytème de sauvegarde** : _[Unreal Engine Blueprint]_
+- **Sytème de sauvegarde** : _Unreal Engine Blueprint_
 
 ### 4.2 Performances et optimisation
 - **Techniques utilisées** : _[...]_  
-- **Ciblage FPS** : _[adaptatif]_  
+- **Ciblage FPS** : _adaptatif_  
 
 ---
 
@@ -94,16 +94,16 @@ Résumé du concept du jeu : _[Un endless runner en 2.5D où le joueur traverse 
 - **Phase 5 : Release** (_25-04-2025_)  
 
 ### 5.2 Répartition des tâches
-- **Développeurs** : _[Gathelier Axel, ...]_  
+- **Développeurs** : _Gathelier Axel, David De Oliveira, Axel Picou, Enzo Mirabella, Romain Ponsignon_  
 - **Graphistes/UI** : _[Noms et responsabilités]_  
 - **Sound Design** : _[Noms et responsabilités]_  
-- **Testeurs** : _[Gathelier Axel, ...]_  
+- **Testeurs** : _Gathelier Axel, ..._  
 
 ---
 
 ## 6. Ressources et Références
 
-- **Dépôt GitHub** : _[https://github.com/GamingCampus-MillieBourgois-24-25/grand-projet-commun-portal-dash]_  
+- **Dépôt GitHub** : _https://github.com/GamingCampus-MillieBourgois-24-25/grand-projet-commun-portal-dash_  
 
 ---
 
