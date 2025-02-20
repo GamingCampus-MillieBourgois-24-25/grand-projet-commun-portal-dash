@@ -171,4 +171,10 @@ La structure des dossiers doit être claire pour organiser les assets.
 
 Description de l'action réalisé (Add:, Fix: ...) + description de ce qui a été ajouté ou modifier (EX: Add: class Player). Rajouter en description du commit quels fichier on été Modifier/Supprimé/Déplacer/Ajouter.
 
+---
+
+## 8 UML
+
+### 8.1 diagramme général
+
 
