@@ -15,16 +15,16 @@
 **Nom du jeu** : _Portal Dash_  
 **Équipe** : _GTech3: Gathelier Axel, Enzo Mirabella, Romain Ponsignon, David De Oliveira, Axel Picou_  
 **Date de création** : _18-02-2025_  
-**Version du document** : _0.4_  
+**Version du document** : _0.5_  
 
 ### 1.2 Objectif du projet
-Résumé du concept du jeu : _[Un endless runner en 2.5D où le joueur traverse des portails changeant à la fois l'environnement et le gameplay, passant d'un surf dans la neige façon Alto, à un vol triangulaire inspiré de Geometry Dash dans un monde futuriste néon, puis à une course sur des voies ferrées façon Little Big Planet dans une mine.]_
+Résumé du concept du jeu : _Un endless runner en 2.5D où le joueur traverse des portails changeant à la fois l'environnement et le gameplay, passant d'un surf dans la neige façon Alto, à un vol triangulaire inspiré de Geometry Dash dans un monde futuriste néon, puis à une course sur des voies ferrées façon Little Big Planet dans une mine._
 
 ### 1.3 Plateformes et technologies
 - **Plateformes cibles** : _Android, iOS_  
 - **Moteur de jeu** : Unreal Engine _5.4_  
 - **Langages de programmation** : blueprint / C++
-- **Gestion de version** : GitHub _[https://github.com/GamingCampus-MillieBourgois-24-25/grand-projet-commun-portal-dash]_  
+- **Gestion de version** : GitHub _https://github.com/GamingCampus-MillieBourgois-24-25/grand-projet-commun-portal-dash_  
 
 ---
 
@@ -34,7 +34,7 @@ Résumé du concept du jeu : _[Un endless runner en 2.5D où le joueur traverse 
 - **Type de jeu** : Runner infini
 - **Déplacement** : Automatique vers la droite
 - **Contrôles** : _Swipe haut/bas, tap_  
-- **Obstacles et dangers** : _[...]_
+- **Obstacles et dangers** : _Differents obstacles en fonction de la thématique du monde/portail_
 - **Collectibles** : _[...]_
 
 ### 2.2 Système de portails
@@ -51,7 +51,7 @@ Résumé du concept du jeu : _[Un endless runner en 2.5D où le joueur traverse 
 
 ### 2.4 Système de score et progression
 - **Calcul du score** : _Ce calcule par rapport au temps et au multiplicateur temporaire appliqué_  
-- **Multiplicateurs** : _[...]_  
+- **Multiplicateurs** : _Plus le joueur ramasse de Coin durant un cours laps de temps, plus le multiplicateur de score augmente, puis diminue avec le temps si le joueur ne ramasse pas d'autres Coin_  
 - **Système de missions/objectifs** : _[...]_
 
 ---
@@ -73,13 +73,13 @@ Résumé du concept du jeu : _[Un endless runner en 2.5D où le joueur traverse 
 
 ### 4.1 Organisation du projet Unreal Engine
 - **Structure des scènes** : _Scene Menu Principale, Scene Jeu, Scene Ecran de Chargement_  
-- **Système de génération du niveau** : _[...]_  
-- **Gestion des assets** : _[...]_  
-- **Système de gestion des portails** : _[Comment sont gérés les changements de gameplay?]_
+- **Système de génération du niveau** : _Chunk progénérer placé de façon aléatoire_  
+- **Gestion des assets** : _Les chunks hors map sont Destroy_  
+- **Système de gestion des portails** : _Post Process avec shake de la camera + fondu au noir + FX_
 - **Sytème de sauvegarde** : _Unreal Engine Blueprint_
 
 ### 4.2 Performances et optimisation
-- **Techniques utilisées** : _[...]_  
+- **Techniques utilisées** : _Profilage (Permet de check les performance)_  
 - **Ciblage FPS** : _adaptatif_  
 
 ---
@@ -97,13 +97,14 @@ Résumé du concept du jeu : _[Un endless runner en 2.5D où le joueur traverse 
 - **Développeurs** : _Gathelier Axel, David De Oliveira, Axel Picou, Enzo Mirabella, Romain Ponsignon_  
 - **Graphistes/UI** : _[Noms et responsabilités]_  
 - **Sound Design** : _[Noms et responsabilités]_  
-- **Testeurs** : _Gathelier Axel, ..._  
+- **Testeurs** : _Gathelier Axel, Gaming Campus_  
 
 ---
 
 ## 6. Ressources et Références
 
-- **Dépôt GitHub** : _https://github.com/GamingCampus-MillieBourgois-24-25/grand-projet-commun-portal-dash_  
+- **Dépôt GitHub** : _https://github.com/GamingCampus-MillieBourgois-24-25/grand-projet-commun-portal-dash_
+- **Recherche Unreal** : 
 
 ---
 
