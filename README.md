@@ -79,8 +79,9 @@ Résumé du concept du jeu : _Un endless runner en 2.5D où le joueur traverse d
 - **Boutons et interactions in-game** : _Bouton pause en haut à droite sous forme d'icône; Interactions avec le jeu en appuyant partout autre que sur le bouton pause_
 
 ### 3.2 Menus et navigation
-- **Écran titre** : _Bouton regarder une pub pour un bonus; Bouton pour aller dans les paramètres; Bouton invisible au milieu de l'ecran pour lancer la partie (comme Subway Surfer)_  
-- **Paramètres** : _Volume (Musique, Bruitage); graphismes (Low, Medium, Hight)_
+- **Écran titre** : _Bouton regarder une pub pour un bonus; Bouton pour aller dans les paramètres; Bouton invisible au milieu de l'ecran pour lancer la partie (comme Subway Surfer); Affichage des objectifs en cours en bas au milieu de l’écran_  
+- **Paramètres** : _Volume (Musique, Bruitage); graphismes (Low, Medium, High)_
+- **Pause** : _Accès aux paramètres; Affichage des objectifs en cours_
 
 ---
 
