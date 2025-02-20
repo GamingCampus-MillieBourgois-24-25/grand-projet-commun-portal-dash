@@ -15,7 +15,7 @@
 **Nom du jeu** : _Portal Dash_  
 **Équipe** : _GTech3: Gathelier Axel, Enzo Mirabella, Romain Ponsignon, David De Oliveira, Axel Picou_  
 **Date de création** : _18-02-2025_  
-**Version du document** : _0.5.2_  
+**Version du document** : _0.5.3_  
 
 ### 1.2 Objectif du projet
 Résumé du concept du jeu : _Un endless runner en 2.5D où le joueur traverse des portails changeant à la fois l'environnement et le gameplay, passant d'un surf dans la neige façon Alto, à un vol triangulaire inspiré de Geometry Dash dans un monde futuriste néon, puis à une course sur des voies ferrées façon Little Big Planet dans une mine._
@@ -39,9 +39,7 @@ Résumé du concept du jeu : _Un endless runner en 2.5D où le joueur traverse d
 
 ### 2.2 Système de portails
 - **Fréquence d’apparition** : _Aléatoire entre deux valeurs par rapport au score / ou par rapport au temps_  
-- **Effets possibles** :
-  - _[...]_
-- **Effets visuels et sonores associés** : _[...]_  
+- **Effets visuels et sonores associés** : _Shake de la camera + fondu au noir + son de traversé du portail_  
 - **Conséquences sur le gameplay** : _Impact sur la difficulté due au changement de gameplay répété, modification de la mécanique de gameplay_
 
 ### 2.3 Power-ups et objets spéciaux
