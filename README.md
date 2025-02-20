@@ -8,7 +8,8 @@
 5. [Plan de Développement](#5-plan-de-developpement)
 6. [Ressources et Références](#6-ressoures-et-références)
 7. [Nomenclature](#7-nomenclature)
-8. [UML](#8-UML)
+8. [UML](#8-uml)
+9. [Optionnel](#9-optionnel)
 
 ## 1. Introduction
 
@@ -16,7 +17,7 @@
 **Nom du jeu** : _Portal Dash_  
 **Équipe** : _GTech3: Gathelier Axel, Enzo Mirabella, Romain Ponsignon, David De Oliveira, Axel Picou_  
 **Date de création** : _18-02-2025_  
-**Version du document** : _0.6_  
+**Version du document** : _1.0.0_  
 
 ### 1.2 Objectif du projet
 Résumé du concept du jeu : _Un endless runner en 2.5D où le joueur traverse des portails changeant à la fois l'environnement et le gameplay, passant d'un surf dans la neige façon Alto, à un vol inspiré de Geometry Dash dans un monde futuriste spatial, puis à une course sur des voies ferrées façon Little Big Planet dans une mine._
@@ -67,6 +68,7 @@ Résumé du concept du jeu : _Un endless runner en 2.5D où le joueur traverse d
 ### 2.4 Système de Score et Progression
 - Calcul du score : Le score se calcule par la distance parcourue dans la game. La métrique utilisée est le mètre.
 - Système de missions : Il y a des objectifs de base qui dès qu’ils sont complétés, des nouveaux apparaîtront. Il y a également des missions hebdomadaires qui sont bien plus longues à réaliser, et ces quêtes se réinitialisent toutes les semaines.
+  
 ---
 
 ## 3. Interface Utilisateur (UI/UX)
@@ -108,8 +110,8 @@ Résumé du concept du jeu : _Un endless runner en 2.5D où le joueur traverse d
 
 ### 5.2 Répartition des tâches
 - **Développeurs** : _Gathelier Axel, David De Oliveira, Axel Picou, Enzo Mirabella, Romain Ponsignon_  
-- **Graphistes/UI** : _[Noms et responsabilités]_  
-- **Sound Design** : _[Noms et responsabilités]_  
+- **Graphistes/UI** : _Axel Picou, Enzo Mirabella_  
+- **Sound Design** : _Romain Ponsignon, Gathelier Axel_  
 - **Testeurs** : _Gathelier Axel, Gaming Campus_  
 
 ---
@@ -192,7 +194,26 @@ Description de l'action réalisé (Add:, Fix: ...) + description de ce qui a ét
 
 ## 8 UML
 
-### 8.1 diagramme général
+### 8.1 Diagramme général
 
 ![uml behaviour drawio](https://github.com/user-attachments/assets/1f15430d-22bb-4507-a641-df3f197d90d9)
 
+---
+
+## 9. Features Optionnelles  
+
+Cette section regroupe les améliorations et ajouts envisageables si le projet est terminé en avance ou repris ultérieurement.  
+
+### 9.1 Boutique  
+Ajout d’une boutique permettant d’acheter des **skins** et des **power-ups** à l’aide de la monnaie du jeu ou de la monnaie payante.  
+
+### 9.2 Tutoriel  
+Mise en place d’un **tutoriel interactif** pour expliquer les mécaniques du jeu aux nouveaux joueurs.  
+
+### 9.3 Fonctionnalités Multijoueur  
+- **Leaderboard** : Classement des joueurs en fonction de leurs scores.  
+- **Événements communautaires** : Challenges et événements limités dans le temps.  
+- **Éditeur de niveaux** : Outil permettant aux joueurs de créer et partager leurs propres niveaux.  
+
+### 9.4 Amélioration des Power-ups  
+Ajout d’un système de **mise à niveau des power-ups** pour prolonger leur durée ou renforcer leurs effets.  
