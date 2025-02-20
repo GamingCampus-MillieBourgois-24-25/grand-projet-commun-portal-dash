@@ -15,7 +15,7 @@
 **Nom du jeu** : _Portal Dash_  
 **Équipe** : _GTech3: Gathelier Axel, Enzo Mirabella, Romain Ponsignon, David De Oliveira, Axel Picou_  
 **Date de création** : _18-02-2025_  
-**Version du document** : _0.5.3_  
+**Version du document** : _0.5.4_  
 
 ### 1.2 Objectif du projet
 Résumé du concept du jeu : _Un endless runner en 2.5D où le joueur traverse des portails changeant à la fois l'environnement et le gameplay, passant d'un surf dans la neige façon Alto, à un vol triangulaire inspiré de Geometry Dash dans un monde futuriste néon, puis à une course sur des voies ferrées façon Little Big Planet dans une mine._
@@ -168,6 +168,6 @@ La structure des dossiers doit être claire pour organiser les assets.
 
 ### 7.7 Commit
 
-L'action réaliser sur une classe ou feature (EX: add class PLayer)
+Description de l'action réalisé (Add:, Fix: ...) + description de ce qui a été ajouté ou modifier (EX: Add: class Player). Rajouter en description du commit quels fichier on été Modifier/Supprimé/Déplacer/Ajouter.
 
 
