@@ -188,7 +188,7 @@ La structure des dossiers doit être claire pour organiser les assets.
 
 ### 7.7 Commit
 
-Description de l'action réalisé (Add:, Fix: ...) + description de ce qui a été ajouté ou modifier (EX: Add: class Player). Rajouter en description du commit quels fichier on été Modifier/Supprimé/Déplacer/Ajouter.
+Description de l'action réalisée (Add:, Fix: ...) + description de ce qui a été ajouté ou modifié (EX: Add: class Player). Ajouter en description du commit quels fichiers on été Modifier/Supprimer/Déplacer/Ajouter.
 
 ---
 
