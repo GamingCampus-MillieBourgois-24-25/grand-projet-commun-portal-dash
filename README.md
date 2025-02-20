@@ -15,7 +15,7 @@
 **Nom du jeu** : _Portal Dash_  
 **Équipe** : _GTech3: Gathelier Axel, Enzo Mirabella, Romain Ponsignon, David De Oliveira, Axel Picou_  
 **Date de création** : _18-02-2025_  
-**Version du document** : _0.5.1_  
+**Version du document** : _0.5.2_  
 
 ### 1.2 Objectif du projet
 Résumé du concept du jeu : _Un endless runner en 2.5D où le joueur traverse des portails changeant à la fois l'environnement et le gameplay, passant d'un surf dans la neige façon Alto, à un vol triangulaire inspiré de Geometry Dash dans un monde futuriste néon, puis à une course sur des voies ferrées façon Little Big Planet dans une mine._
@@ -38,11 +38,11 @@ Résumé du concept du jeu : _Un endless runner en 2.5D où le joueur traverse d
 - **Collectibles** : _[...]_
 
 ### 2.2 Système de portails
-- **Fréquence d’apparition** : _[Aléatoire entre deux valeurs par rapport au score / ou par rapport au temps]_  
+- **Fréquence d’apparition** : _Aléatoire entre deux valeurs par rapport au score / ou par rapport au temps_  
 - **Effets possibles** :
   - _[...]_
 - **Effets visuels et sonores associés** : _[...]_  
-- **Conséquences sur le gameplay** : _[Ex : impact sur la difficulté, ajout de nouvelles mécaniques, ...]_
+- **Conséquences sur le gameplay** : _Impact sur la difficulté due au changement de gameplay répété, modification de la mécanique de gameplay_
 
 ### 2.3 Power-ups et objets spéciaux
 - **Types de power-ups** : _[...]_
@@ -166,4 +166,9 @@ Résumé du concept du jeu : _Un endless runner en 2.5D où le joueur traverse d
 - Les interfaces sont préfixées par `I_` : `I_Interactable`
 
 ### 7.6 Dossiers du projet Unreal
-La structure des dossiers doit être claire pour organiser les assets :
+La structure des dossiers doit être claire pour organiser les assets.
+
+### 7.7 Commit
+
+
+
