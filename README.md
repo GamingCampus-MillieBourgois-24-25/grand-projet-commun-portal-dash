@@ -18,7 +18,7 @@
 **Version du document** : _0.6_  
 
 ### 1.2 Objectif du projet
-Résumé du concept du jeu : _Un endless runner en 2.5D où le joueur traverse des portails changeant à la fois l'environnement et le gameplay, passant d'un surf dans la neige façon Alto, à un vol triangulaire inspiré de Geometry Dash dans un monde futuriste néon, puis à une course sur des voies ferrées façon Little Big Planet dans une mine._
+Résumé du concept du jeu : _Un endless runner en 2.5D où le joueur traverse des portails changeant à la fois l'environnement et le gameplay, passant d'un surf dans la neige façon Alto, à un vol inspiré de Geometry Dash dans un monde futuriste spatial, puis à une course sur des voies ferrées façon Little Big Planet dans une mine._
 
 ### 1.3 Plateformes et technologies
 - **Plateformes cibles** : _Android, iOS_  
@@ -42,23 +42,36 @@ Résumé du concept du jeu : _Un endless runner en 2.5D où le joueur traverse d
 - **Fréquence d’apparition** : _Les portails apparaîtront après temps donné dans le level._  
 - **Effets visuels et sonores associés** : _Shake de la camera + fondu au noir + son de traversé du portail_  
 - **Conséquences sur le gameplay** : _Impact sur la difficulté due au changement de gameplay répété, modification de la mécanique de gameplay_
+  - **Portail du niveau de la neige :** Passage à un gameplay de surf. Le joueur glisse sur une pente et doit appuyer sur son écran pour sauter et esquiver les différents obstacles. Plus le joueur appuis longtemps, plus il saute haut (dans la limite du raisonable/ valeur de hauteur max à attribuer plus tard).
+  - **Portail du niveau de la mine/western:** Passage à un gameplay de choix (le joueur a le choix de plusieur voie a certains point de la carte)
+  - **Portail du niveau futuriste :** Passage à un gameplay type vaisseau Geometry Dash
 
 ### 2.3 Power-ups et objets spéciaux
-- **Types de power-ups** : _Un power-up commun pour chaque monde "bouclier" avec une asset différent pour chaque monde et 2 power-up par niveau (Western: Lasso "Aiment qui attire les pieces", TNT"Detruit obstacle activation automatiquement" / Neige: Planneur "S'active en saut", Vin chaud "x2 en piece" / Futuriste: Lasser "Detruit obstacle en feussant des viens et va activation automatique", Dash "Wrap de tant métres")_
+- **Types de power-ups** : Un power-up commun pour chaque monde "bouclier" avec un asset différent pour chaque monde, ainsi que 2 power-up par niveau 
+  - Western:
+    - Lasso "Aiment qui attire les pieces";
+    - TNT "Detruit obstacle activation automatiquement";
+     
+  -  Neige:
+      -  Planneur "S'active en saut";
+      -  Vin chaud "x2 en piece";
+  -  Futuriste:
+      -  Laser "Detruit les obstacles en faisant des vas et viens, activation automatique";
+      -  Dash "Wrap sur une distance prédéfinie tant métres";
+
+
 - **Durée d’effet** : _En fonction du temps en seconde_  
 - **Méthode d’obtention** : _Collectable dans les niveaux_  
 
-### 2.4 Système de score et progression
-- **Calcul du score** : _Ce calcule par rapport au temps et au multiplicateur temporaire appliqué_  
-- **Multiplicateurs** : _Plus le joueur ramasse de Coin durant un cours laps de temps, plus le multiplicateur de score augmente, puis diminue avec le temps si le joueur ne ramasse pas d'autres Coin_  
-- **Système de missions/objectifs** : _Missions journalière(un run)/hebdomadaire(plussieur run)_
-
+### 2.4 Système de Score et Progression
+- Calcul du score : Le score se calcule par la distance parcourue dans la game. La métrique utilisée est le mètre.
+- Système de missions : Il y a des objectifs de base qui dès qu’ils sont complétés, des nouveaux apparaîtront. Il y a également des missions hebdomadaires qui sont bien plus longues à réaliser, et ces quêtes se réinitialisent toutes les semaines.
 ---
 
 ## 3. Interface Utilisateur (UI/UX)
 
 ### 3.1 Éléments du HUD
-- **Affichage du score** : _En haut à gauche; Score qui s'incrémente en temps réel; Animation sur l'UI lors d'un multiplicateur actif et lors d'un passage de palier de points_  
+- **Affichage du score** : _En haut à gauche; Score qui s'incrémente en temps réel_  
 - **Affichage des power-ups actifs** : _Icônes rondes; Timers visuels sur l'icône (icône affiche le timer sous forme de la perte de couleur de l'asset en fonction du temps et dans le sens de temps)_  
 - **Boutons et interactions in-game** : _Bouton pause en haut à droite sous forme d'icône; Interactions avec le jeu en appuyant partout autre que sur le bouton pause_
 
