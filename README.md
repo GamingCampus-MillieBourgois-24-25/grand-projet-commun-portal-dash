@@ -168,5 +168,6 @@ La structure des dossiers doit être claire pour organiser les assets.
 
 ### 7.7 Commit
 
+L'action réaliser sur une classe ou feature (EX: add class PLayer)
 
 
