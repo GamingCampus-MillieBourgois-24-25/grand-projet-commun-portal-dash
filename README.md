@@ -21,8 +21,8 @@
 Résumé du concept du jeu : _[Un endless runner en 2.5D où le joueur traverse des portails changeant à la fois l'environnement et le gameplay, passant d'un surf dans la neige façon Alto, à un vol triangulaire inspiré de Geometry Dash dans un monde futuriste néon, puis à une course sur des voies ferrées façon Little Big Planet dans une mine.]_
 
 ### 1.3 Plateformes et technologies
-- **Plateformes cibles** : _[Android, iOS]_  
-- **Moteur de jeu** : Unreal Engine _[5.4]_  
+- **Plateformes cibles** : _Android, iOS_  
+- **Moteur de jeu** : Unreal Engine _5.4_  
 - **Langages de programmation** : blueprint / C++
 - **Gestion de version** : GitHub _[https://github.com/GamingCampus-MillieBourgois-24-25/grand-projet-commun-portal-dash]_  
 
