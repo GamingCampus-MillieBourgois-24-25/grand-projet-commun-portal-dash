@@ -17,15 +17,15 @@
 **Nom du jeu** : _Portal Dash_  
 **Équipe** : _GTech3: Gathelier Axel, Enzo Mirabella, Romain Ponsignon, David De Oliveira, Axel Picou_  
 **Date de création** : _18-02-2025_  
-**Version du document** : _1.0.0_  
+**Version du document** : _1.1.0_  
 
 ### 1.2 Objectif du projet
 Résumé du concept du jeu : _Un endless runner en 2.5D où le joueur traverse des portails changeant à la fois l'environnement et le gameplay, passant d'un surf dans la neige façon Alto, à un vol inspiré de Geometry Dash dans un monde futuriste spatial, puis à une course sur des voies ferrées façon Little Big Planet dans une mine._
 
 ### 1.3 Plateformes et technologies
-- **Plateformes cibles** : _Android, iOS_  
+- **Plateformes cibles** : _Android_  
 - **Moteur de jeu** : Unreal Engine _5.4_  
-- **Langages de programmation** : blueprint / C++
+- **Langages de programmation** : blueprint
 - **Gestion de version** : GitHub _https://github.com/GamingCampus-MillieBourgois-24-25/grand-projet-commun-portal-dash_  
 
 ---
@@ -42,14 +42,14 @@ Résumé du concept du jeu : _Un endless runner en 2.5D où le joueur traverse d
 
 ### 2.2 Système de portails
 - **Fréquence d’apparition** : _Les portails apparaîtront après temps donné dans le level._  
-- **Effets visuels et sonores associés** : _Shake de la camera + fondu au noir + son de traversé du portail_  
+- **Effets visuels et sonores associés** : fondu au noir + son de traversé du portail_  
 - **Conséquences sur le gameplay** : _Impact sur la difficulté due au changement de gameplay répété, modification de la mécanique de gameplay_
   - **Portail du niveau de la neige :** Passage à un gameplay de surf. Le joueur glisse sur une pente et doit appuyer sur son écran pour sauter et esquiver les différents obstacles. Plus le joueur appuis longtemps, plus il saute haut (dans la limite du raisonable/ valeur de hauteur max à attribuer plus tard).
   - **Portail du niveau de la mine/western:** Passage à un gameplay de choix (le joueur a le choix de plusieur voie a certains point de la carte)
   - **Portail du niveau futuriste :** Passage à un gameplay type vaisseau Geometry Dash
 
 ### 2.3 Power-ups et objets spéciaux
-- **Types de power-ups** : Un power-up commun pour chaque monde "bouclier" avec un asset différent pour chaque monde, ainsi que 2 power-up par niveau 
+- **Types de power-ups** : Un power-up commun pour chaque monde "bouclier", ainsi que 2 power-up par niveau 
   - Western:
     - Lasso "Aimant qui attire les pièces";
     - TNT "Détruit obstacle activation automatiquement";
@@ -58,7 +58,7 @@ Résumé du concept du jeu : _Un endless runner en 2.5D où le joueur traverse d
       -  Planneur "S'active en saut";
       -  Vin chaud "x2 en pièce";
   -  Futuriste:
-      -  Laser "Détruit les obstacles en faisant des vas et viens, activation automatique";
+      -  Laser "Détruit les obstacles, activation automatique";
       -  Dash "Wrap sur une distance prédéfinie tant mètres";
 
 
@@ -68,7 +68,8 @@ Résumé du concept du jeu : _Un endless runner en 2.5D où le joueur traverse d
 ### 2.4 Système de Score et Progression
 - Calcul du score : Le score se calcule par la distance parcourue dans la game. La métrique utilisée est le mètre.
 - Système de missions : Il y a des objectifs de base qui dès qu’ils sont complétés, des nouveaux apparaîtront. Il y a également des missions hebdomadaires qui sont bien plus longues à réaliser, et ces quêtes se réinitialisent toutes les semaines.
-  
+
+- système de mise à niveau des power-ups pour prolonger leur durée ou renforcer leurs effets.  
 ---
 
 ## 3. Interface Utilisateur (UI/UX)
@@ -103,10 +104,10 @@ Résumé du concept du jeu : _Un endless runner en 2.5D où le joueur traverse d
 ## 5. Plan de Développement
 
 ### 5.1 Roadmap
-- **Phase 1 : Prototype de chaque gameplay des portails** (_[Durée prévue]_)  
-- **Phase 2 : Ajustement des prototypes et ajouts des gameplay secondaires** (_[Durée prévue]_)  
-- **Phase 3 : Ajout de l’UI et des feedbacks** (_[Durée prévue]_)  
-- **Phase 4 : Optimisation et tests** (_[Durée prévue]_)  
+- **Phase 1 : Prototype de chaque gameplay des portails** (1semaine)  
+- **Phase 2 : Ajustement des prototypes et ajouts des gameplay secondaires** (1semaine)  
+- **Phase 3 : Ajout de l’UI et des feedbacks** (2jour)  
+- **Phase 4 : Optimisation et tests** (2jour)  
 - **Phase 5 : Release** (_25-04-2025_)  
 
 ### 5.2 Répartition des tâches
@@ -220,6 +221,3 @@ Mise en place d’un **tutoriel interactif** pour expliquer les mécaniques du j
 - **Leaderboard** : Classement des joueurs en fonction de leurs scores.  
 - **Événements communautaires** : Challenges et événements limités dans le temps.  
 - **Éditeur de niveaux** : Outil permettant aux joueurs de créer et partager leurs propres niveaux.  
-
-### 9.4 Amélioration des Power-ups  
-Ajout d’un système de **mise à niveau des power-ups** pour prolonger leur durée ou renforcer leurs effets.  
