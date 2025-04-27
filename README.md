@@ -104,10 +104,10 @@ Résumé du concept du jeu : _Un endless runner en 2.5D où le joueur traverse d
 ## 5. Plan de Développement
 
 ### 5.1 Roadmap
-- **Phase 1 : Prototype de chaque gameplay des portails** (_[Durée prévue]_)  
-- **Phase 2 : Ajustement des prototypes et ajouts des gameplay secondaires** (_[Durée prévue]_)  
-- **Phase 3 : Ajout de l’UI et des feedbacks** (_[Durée prévue]_)  
-- **Phase 4 : Optimisation et tests** (_[Durée prévue]_)  
+- **Phase 1 : Prototype de chaque gameplay des portails** (1semaine)  
+- **Phase 2 : Ajustement des prototypes et ajouts des gameplay secondaires** (1semaine)  
+- **Phase 3 : Ajout de l’UI et des feedbacks** (2jour)  
+- **Phase 4 : Optimisation et tests** (2jour)  
 - **Phase 5 : Release** (_25-04-2025_)  
 
 ### 5.2 Répartition des tâches
